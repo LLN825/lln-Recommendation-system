@@ -2,7 +2,7 @@ from pyspark import SparkContext, HiveContext
 from pyspark.ml.recommendation import ALS
 
 import numpy as np
-from sklearn.externals import joblib
+import joblib
 from data_process import  Rating_info, transfromed_feature, item_info, user_info
 
 def predict(rating_file_path, user_file_path, item_file_path):

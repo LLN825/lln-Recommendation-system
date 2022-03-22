@@ -2,7 +2,7 @@ import numpy as np
 from pyspark import SparkContext, HiveContext
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import GradientBoostingClassifier
-from sklearn.externals import joblib
+import joblib
 from data_process import sample, extract_feature_label
 
 
